@@ -3,8 +3,12 @@ from geraldine.geraldine import print_two
 from marlon.marlon import print_three
 from mpumelelo.mpumelelo import print_four
 import time
+import webbrowser
 
-print('Welcome to our collaborative program')
+time.sleep(0.5)
+print (f"oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\
+    \n-----------Welcome to our collaborative program-----------\
+    \noooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
 time.sleep(0.5)
 print(".")
 time.sleep(0.5)
@@ -29,4 +33,7 @@ time.sleep(0.5)
 print(".")
 time.sleep(0.5)
 print(".")
-print("Thank you!!!!!!!!!!!!")
+print(f"Thank you!!!!!!!!!!!!\
+\nYou can see our repository.")
+time.sleep(0.5)
+webbrowser.open(f"https://github.com/Evangelivm/cse210-tc03", new=1)
